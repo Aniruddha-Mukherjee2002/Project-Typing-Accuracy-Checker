@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing accuracy calculator</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+    <header>Typing accuracy calcualtor</header>
+    <main>
+        <!-- Here the content will be screening -->
+        <div id="text-container">
+            <div class="text">
+                <label for="content">Words to type..</label>
+                <p id="content"></p>
+            </div>
+            <!-- Typing area -->
+            <div class="typing-area">
+                <label for="typing-content"></label>
+                <pre id="typing-content"></pre>
+                <label for="mistake">Wrong Keystrokes</label>
+                <pre id="mistake"></pre>
+            </div>
+            <!-- This will show the result -->
+            <div class="result-container">
+                <p id="wks"></p>
+                <p id="accuracy"></p>
+            </div>
+        </div>
+    </main>
+    <script src="./script2.js" type="module"></script>
+</body>
+</html>
