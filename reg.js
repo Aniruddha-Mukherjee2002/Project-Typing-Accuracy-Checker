@@ -12,6 +12,8 @@ const user = {
 //listening event when the user will come for the first time on our website
 document.getElementById('btn-reg').addEventListener('click',(e)=>{
     e.preventDefault()
+    
+    
     const id = document.getElementById('email-reg').value
     const pass = document.getElementById('password-reg').value
   
