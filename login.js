@@ -5,6 +5,6 @@ document.getElementById('btn').addEventListener('click',(e)=>{
     window.location.replace('./registration.html')
   }
   else{
-    window.location.replace('./landing.html')
+    window.location.replace('landing.html')
   }
   })
